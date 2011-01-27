@@ -4,18 +4,18 @@
 These are plugins for the monitoring tool Munin which can be used to monitor the number of active drones for any OpenSRF service.  There are three graphs available:
 
 ### Full Service Graph
-![Full OpenSRF Services Sample Graph](http://github.com/sitka/eg-munin/raw/master/sample-images/full-sample.png)
+![Full OpenSRF Services Sample Graph](https://github.com/sitka/eg-munin/raw/master/sample-images/full-sample.png)
 
 This graph is quite messy but useful for an overview of services.
 
 ### Single Service (Max line) Graph
-![OpenSRF Single Service (Max line) Sample Graph](http://github.com/sitka/eg-munin/raw/master/sample-images/lines-sample.png)
+![OpenSRF Single Service (Max line) Sample Graph](https://github.com/sitka/eg-munin/raw/master/sample-images/lines-sample.png)
 
 This graph represents the max_children as a red line and the number of drones in use as a green line.
 
 
 ### Single Service (Percent line) Graph
-![OpenSRF Single Service (Percent line) Sample Graph](http://github.com/sitka/eg-munin/raw/master/sample-images/percent-sample.png)
+![OpenSRF Single Service (Percent line) Sample Graph](https://github.com/sitka/eg-munin/raw/master/sample-images/percent-sample.png)
 
 This graph represents a single service's drones as a percentage of the max_children.
 
