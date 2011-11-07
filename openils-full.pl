@@ -86,6 +86,6 @@ for my $s ( @$services ) {
     my $dronepercent = $dcount / $max_kids * 100;
     $s =~ s/-//g;
     $s =~ s/\./_/g;
-    print $s . ".value " . $dronepercent;
+    print $s . ".value " . $dronepercent . "\n";
 }
-
+exit(0);

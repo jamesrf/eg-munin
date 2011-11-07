@@ -93,5 +93,6 @@ print "maxsparechildren.value $maxsparechildren\n";
 print "minsparechildren.value $minsparechildren\n";
 print "maxchildren.value $maxchildren\n";
 print "minchildren.value $minchildren\n";
-print "drones.value $dronecount";
+print "drones.value $dronecount\n";
 
+exit(0);

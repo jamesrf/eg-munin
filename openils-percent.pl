@@ -73,6 +73,6 @@ if (exists $ARGV[0]) {
 
 my $dronepercent = $dcount / $max_kids * 100;
 
-print "drones.value $dronepercent";
+print "drones.value $dronepercent\n";
 
-
+exit(0);
