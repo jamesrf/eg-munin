@@ -25,7 +25,7 @@ my $app = $0;
 $app =~ s/_/./;
 $app =~ s/openils/open\-ils/g;
 $app =~ s/(.+)\///g;
-my $config_file = '/openils/conf/opensrf.xml';
+my $config_file = exists $ENV{'configfile'} ? $ENV{'configfile'} : '/openils/conf/opensrf.xml';
 
     # get info from XML conf file
     my $parser = XML::LibXML->new();

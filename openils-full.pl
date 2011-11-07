@@ -20,7 +20,7 @@ use Getopt::Long;
 use Data::Dumper;
 
 
-my $config_file = '/openils/conf/opensrf.xml';
+my $config_file = exists $ENV{'configfile'} ? $ENV{'configfile'} : '/openils/conf/opensrf.xml';
 
     # get info from XML conf file
     my $parser = XML::LibXML->new();
